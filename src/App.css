@@ -1,0 +1,96 @@
+body{
+  background-color: rgb(5, 5, 5);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.titleHeader{
+  margin-bottom: 0px;
+  color: #fff;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.titleEmpresa{
+  margin-top: -65px;
+  margin-bottom: 80px;
+  font-size: 50px;
+  color: #fff;
+}
+@media (max-width: 655px) {
+  .titleEmpresa{
+    margin-top: 0px;
+  }
+}
+.card {
+  padding: 2em;
+  border: 1px solid white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.read-the-docs {
+  color: #fff;
+}
+
+.check{
+  margin-left: -20px;
+}
+.check[type="checkbox"] {
+  accent-color: green;
+}
+@media (max-width: 490px){
+  .title{
+    flex-direction: column;
+  }
+  .titleHeader{
+    margin-top: 0px;
+  }
+  .titleEmpresa{
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
