@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
-import { addTodo, deleteAll, getAll, setAll } from "./service/todoService";
+import { addTodo, deleteAll, getAll, setAll } from "./service/allService";
 import { Homerwork } from "./types/Homework";
 
 import "../src/styles/style.scss";
