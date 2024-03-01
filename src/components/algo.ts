@@ -1,7 +1,7 @@
-const msg: string = 'Buenas';
+const msg: string = 'prueba';
 const persona={
-    name:"jonathan",
-    year: 34
+    name:"Andres",
+    year: 20
 }
 persona.year  = 29
 console.log(persona.year + 1)
